@@ -6,6 +6,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Android">
+          <div className="earwrap">
+            <div className="ears leftear" />
+            <div className="ears rightear" /> 
+          </div>
           <div className="head">
             <div className="eyeswrap">
               <div className="eyes"/>

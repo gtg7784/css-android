@@ -91,5 +91,28 @@ $mainColor: #72bf48;
                 }
             }
         }
+
+        & > .earwrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0px 150px;
+
+            & > .ears{
+                width: 7px;
+                height: 80px;
+                background-color: $mainColor;
+                border-radius: 7px;
+                margin-bottom: -50px;
+            }
+
+            & > .rightear{
+                transform: rotate(30deg);
+            }
+
+            & > .leftear{
+                transform: rotate(330deg);
+            }
+        }
     }
 }
