@@ -1,0 +1,81 @@
+$mainColor: #72bf48;
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    & > .Android{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        width: 500px;
+        height: 615.131;
+    
+        & > .head{
+            margin-left: auto;
+            margin-right: auto;
+            width: 317.601px;
+            height: 300px;
+            background-color: $mainColor;
+            border-radius: 150px;
+            margin-bottom: -142.425px;
+        }
+
+        & > .bodywrap{
+
+            & > .realbodywrap{
+                display: flex;
+                flex-direction: row;
+
+                & > .arm{
+                    width: 69.183px;
+                    height: 226.946px;
+                    margin-top: 25.339px;
+                    background-color: $mainColor;
+                    border-radius: 35px;
+                }
+
+                & > .body{
+                    width: 317.601px;
+                    height: 330px;
+                    background-color: $mainColor;
+                    border-radius: 35px;
+
+                    & > .neck{
+                        width: 317.601px;
+                        height: 25.339px;
+                        background-color: #fff;
+                    }
+                }
+    
+                & > .leftarm{
+                    margin-right: 22.943px;
+                }
+    
+                & > .rightarm{
+                    margin-left: 22.943px;
+                }
+            }
+
+            & > .legwrap{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                padding: 0px 130px;
+                margin-top: -140px;
+
+                & > .leg{
+                    width: 69.183px;
+                    height: 226.946px;
+                    margin-top: 25.339px;
+                    background-color: $mainColor;
+                    border-radius: 35px;
+                }
+            }
+        }
+    }
+}
