@@ -16,9 +16,7 @@ class App extends Component {
               <div className="eyes"/>
             </div>
           </div>
-
           <div className="bodywrap">
-          
             <div className="realbodywrap">
               <div className="arm leftarm"/>
               <div className="body">
