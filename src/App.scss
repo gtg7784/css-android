@@ -22,7 +22,21 @@ $mainColor: #72bf48;
             height: 300px;
             background-color: $mainColor;
             border-radius: 150px;
-            margin-bottom: -142.425px;
+            margin-bottom: -175px;
+
+           & > .eyeswrap{
+               display: flex;
+               justify-content: space-between;
+               padding: 0px 75px;
+               flex-direction: row;
+               margin-top: 50px;
+                & > .eyes{
+                    width: 35.399px;
+                    height: 37.006px;
+                    background-color: #fff;
+                    border-radius: 18px;
+                }
+           }
         }
 
         & > .bodywrap{
